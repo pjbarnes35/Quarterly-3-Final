@@ -6,7 +6,7 @@ cursor = conn.cursor()
 
 # create a list of dictionaries with the questions and answers for Business Applications Development
 questions = [
-    {
+{
         "id": 1,
         "question": "Which programming language is commonly used for web development?",
         "option1": "A. Java",
@@ -14,8 +14,8 @@ questions = [
         "option3": "C. C++",
         "option4": "D. HTML/CSS/JavaScript",
         "correct_answer": "D"
-    },
-    {
+},
+{
         "id": 2,
         "question": "What does API stand for?",
         "option1": "A. Application Program Interface",
@@ -23,8 +23,8 @@ questions = [
         "option3": "C. Application Process Integration",
         "option4": "D. Automated Program Interaction",
         "correct_answer": "A"
-    },
-    {
+},
+{
         "id": 3,
         "question": "What is the difference between front-end and back-end development?",
         "option1": "A. Front-end focuses on user interface, while back-end focuses on server-side logic",
@@ -32,8 +32,8 @@ questions = [
         "option3": "C. Front-end uses Python, while back-end uses JavaScript",
         "option4": "D. Front-end is for design, while back-end is for marketing",
         "correct_answer": "A"
-    },
-    {
+},
+{
         "id": 4,
         "question": "What is an API?",
         "option1": "A. Automated Program Interaction",
@@ -41,8 +41,8 @@ questions = [
         "option3": "C. Advanced Programming Interface",
         "option4": "D. Application Process Integration",
         "correct_answer": "B"
-    },
-    {
+},
+{
         "id": 5,
         "question": "What is the purpose of version control systems like Git?",
         "option1": "A. Managing customer relationships",
@@ -50,8 +50,8 @@ questions = [
         "option3": "C. Analyzing market trends",
         "option4": "D. Automating business processes",
         "correct_answer": "B"
-    },
-    {
+},
+{
     "id": 6,
     "question": "Which database management system is commonly used for relational databases?",
     "option1": "A. MongoDB",
@@ -59,8 +59,8 @@ questions = [
     "option3": "C. Redis",
     "option4": "D. MySQL",
     "correct_answer": "D"
-    },
-    {
+},
+{
     "id": 7,
     "question": "What is the primary purpose of a RESTful API?",
     "option1": "A. Enforcing security protocols",
@@ -68,8 +68,8 @@ questions = [
     "option3": "C. Optimizing database queries",
     "option4": "D. Generating dynamic web content",
     "correct_answer": "B"
-    },
-    {   
+},
+{
     "id": 8,
     "question": "What is the role of a front-end framework like React or Angular?",
     "option1": "A. Managing server-side operations",
@@ -77,8 +77,8 @@ questions = [
     "option3": "C. Simplifying the development of user interfaces",
     "option4": "D. Interacting with hardware components",
     "correct_answer": "C"
-    },
-    {
+},
+{
     "id": 9,
     "question": "What is the purpose of unit testing in software development?",
     "option1": "A. Identifying and fixing security vulnerabilities",
@@ -86,8 +86,8 @@ questions = [
     "option3": "C. Monitoring system performance over time",
     "option4": "D. Implementing user interface designs",
     "correct_answer": "B"
-    },
-    {
+},
+{
     "id": 10,
     "question": "What is the difference between synchronous and asynchronous programming?",
     "option1": "A. Synchronous programming allows multiple tasks to run simultaneously, while asynchronous programming requires tasks to be executed sequentially",
@@ -95,7 +95,7 @@ questions = [
     "option3": "C. Synchronous programming is more efficient for CPU-bound tasks, while asynchronous programming is more efficient for I/O-bound tasks",
     "option4": "D. Synchronous programming is used for front-end development, while asynchronous programming is used for back-end development",
     "correct_answer": "B"
-    }
+} 
 ]
 
 
@@ -120,7 +120,7 @@ for row in rows:
 
 # List of questions for Finance class
 finance_questions = [
-    {
+{
         "id": 1,
         "question": "What is the primary goal of financial management?",
         "option1": "A. Maximizing profits",
@@ -128,8 +128,8 @@ finance_questions = [
         "option3": "C. Maximizing shareholder wealth",
         "option4": "D. Increasing market share",
         "correct_answer": "C"
-    },
-    {
+},
+{
         "id": 2,
         "question": "What is the formula for calculating Return on Investment (ROI)?",
         "option1": "A. Net Profit / Total Assets",
@@ -137,8 +137,8 @@ finance_questions = [
         "option3": "C. Net Profit / Total Revenue",
         "option4": "D. Net Profit / Investment Cost",
         "correct_answer": "D"
-    },
-    {
+},
+{
         "id": 3,
         "question": "What does GDP stand for?",
         "option1": "A. Gross Domestic Product",
@@ -146,8 +146,8 @@ finance_questions = [
         "option3": "C. Government Development Plan",
         "option4": "D. Gross Dollar Price",
         "correct_answer": "A"
-    },
-    {
+},
+{
         "id": 4,
         "question": "What is the role of the Securities and Exchange Commission (SEC)?",
         "option1": "A. Protecting consumers from fraud",
@@ -155,8 +155,8 @@ finance_questions = [
         "option3": "C. Managing international trade agreements",
         "option4": "D. Setting interest rates",
         "correct_answer": "B"
-    },
-    {
+},
+{
         "id": 5,
         "question": "What is a balance sheet used for?",
         "option1": "A. Recording daily transactions",
@@ -164,8 +164,8 @@ finance_questions = [
         "option3": "C. Summarizing a company's financial position",
         "option4": "D. Projecting future revenue",
         "correct_answer": "C"
-    },
-    {
+},
+{
         "id": 6,
         "question": "What is the difference between equity and debt financing?",
         "option1": "A. Equity involves borrowing money, while debt involves selling ownership stake",
@@ -173,8 +173,8 @@ finance_questions = [
         "option3": "C. Equity financing is more risky than debt financing",
         "option4": "D. Debt financing offers higher returns than equity financing",
         "correct_answer": "B"
-    },
-    {
+},
+{
         "id": 7,
         "question": "What is the role of the Federal Reserve in the economy?",
         "option1": "A. Regulating international trade",
@@ -182,8 +182,8 @@ finance_questions = [
         "option3": "C. Controlling inflation and interest rates",
         "option4": "D. Setting tax rates",
         "correct_answer": "C"
-    },
-    {
+},
+{
         "id": 8,
         "question": "What is the purpose of financial ratios?",
         "option1": "A. Comparing a company's financial performance over time",
@@ -191,8 +191,8 @@ finance_questions = [
         "option3": "C. Predicting future stock prices",
         "option4": "D. Assessing market trends",
         "correct_answer": "B"
-    },
-    {
+},
+{
         "id": 9,
         "question": "What is the difference between capital expenditure and operating expenditure?",
         "option1": "A. Capital expenditure is for short-term expenses, while operating expenditure is for long-term investments",
@@ -200,8 +200,8 @@ finance_questions = [
         "option3": "C. Operating expenditure is financed through equity, while capital expenditure is financed through debt",
         "option4": "D. Capital expenditure is tax-deductible, while operating expenditure is not",
         "correct_answer": "B"
-    },
-    {
+},
+{
         "id": 10,
         "question": "What is the concept of present value in finance?",
         "option1": "A. The value of money in the future compared to its value today",
@@ -209,7 +209,7 @@ finance_questions = [
         "option3": "C. The amount of money needed to start a business",
         "option4": "D. The value of a company's stock on the open market",
         "correct_answer": "A"
-    }
+}
 ]
 # Insert questions into the Finance table
 for question in finance_questions:
@@ -221,7 +221,7 @@ for question in finance_questions:
 
 # List of questions for Business Intelligence and Analytics Capstone course
 analytics_questions = [
-   {
+{
     "id": 1,
     "question": "What is the primary goal of financial management?",
     "option1": "A. Maximizing profits",
@@ -411,7 +411,6 @@ business_strategy_questions = [
     "option4": "D. Identifying opportunities for cost reduction",
     "correct_answer": "A"
 }
-
 ]
 
 # for loop to insert questions into the BusinessStrategy table
@@ -514,7 +513,6 @@ comm_questions = [
     "option4": "D. All of the above",
     "correct_answer": "D"
 }
-
 ]
 
 # Insert questions into the Business Communications table
